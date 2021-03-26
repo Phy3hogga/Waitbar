@@ -1,12 +1,14 @@
 # Configurable Multi-Stage Waitbar for Matlab
 
-Fully configuarble waitbar for matlab which allows multiple progress bars to be simultaneously shown with respective labels and colour association.
+Fully configuarble waitbar for matlab which allows multiple progress bars to be simultaneously shown with respective labels and colour association. 
 
 This code was originally written for Matlab R2018A.
 
 ### Example
 
-Example use of waitbar.m where three progressbars are simultaneously displayed and update as each of the nested loops are iterated through.
+Example use of Multiple_Wait_Bar.m as seen in Test_Wait_Bar.m ; where three seperate progressbars are simultaneously displayed and update as each of the three nested loops are iterated through.
+
+Note the use of the multiple-wait bar once per-iteration cycle instead of updating the figure once per each individual change in value for each bar. This is done to reduce the overhead time in re-drawing the waitbar figure.
 
 ```matlab
 %Set progressbar titles
