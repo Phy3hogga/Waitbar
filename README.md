@@ -6,9 +6,9 @@ This code was originally written for Matlab R2018A.
 
 ### Example
 
-Example use of waitbar.m where all inputs are within the expected bounds
+Example use of waitbar.m where three progressbars are simultaneously displayed and update as each of the nested loops are iterated through.
 
-```
+```matlab
 %Set progressbar titles
 Progress(1).Title = 'i';
 Progress(2).Title = 'j';
