@@ -42,11 +42,11 @@ Progress(x).Colour relates to the colour specification of each individual progre
 
 ## Built With
 
-* [Matlab R2018A](https://www.mathworks.com/products/matlab.html) - The web framework used
+* [Matlab R2018A](https://www.mathworks.com/products/matlab.html) - Matlab 2018A IDE
 
 ## Contributing
 
-This code is considered finished as-is and will not be actively maintained.
+This code is considered finished and will not be actively maintained.
 
 ## Authors
 
