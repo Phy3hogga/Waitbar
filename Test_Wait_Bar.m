@@ -1,11 +1,5 @@
-%% This code should be run from the root directory if required
-
-%% Code to test the functions:
-% - QOL_Functions\Multiple_Wait_Bar
-
 %Setup
 clear all;
-Include_Subdirectories({'MCX_Trace_Functions','QOL_Functions','Physical_Experiments','Geometric'});
 
 %Set progressbar titles
 Progress(1).Title = 'i';
