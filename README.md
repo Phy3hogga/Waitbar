@@ -1,6 +1,6 @@
 # Configurable Multi-Stage Waitbar for Matlab
 
-Fully configuarble waitbar for matlab which allows multiple progress bars to be simultaneously shown with respective labels and colour association. 
+Fully configuarble waitbar for matlab which allows multiple progress bars to be simultaneously shown with respective labels and colour association.
 
 This code was originally written for Matlab R2018A.
 
@@ -34,9 +34,9 @@ for i = 0:0.2:1
 end
 ```
 
-Normalised_Array.m only serves the purpose of scaling the inputs if required.
+Normalised_Array.m only serves the purpose of scaling the progressbar values to ensure the input values are within a valid range (0-1).
 
-Each individual bar has a Progress, Title and Colour associated with it where X denotes the individual bar.
+Each individual bar has a Progress, Title and Colour associated with it, where x denotes each individual bar.
 
 Progress(x).Progress relates to the display of each individual progress bar. Progress values should be within the interval 0 (empty) to 1 (full).
 Progress(x).Title relates to the text associated with each individual progress bar.
